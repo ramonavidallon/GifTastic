@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>NFL GifTastic!</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <!--JUMBOTRON HEADER-->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">NFL GifTastic</h1>
+                <p class="lead">Click on an Athlete's name to reveal a cool gif! Or add a player of your own!</p>
+            </div>
+        </div>
+
+        <!--GIF BUTTONS-->
+        <div id="athletes"></div>
+
+
+        <!--SEARCH ENGINE FOR USER TO CREATE GIF BUTTON FOR THEIR DESIRED NFL ATHLETE-->
+        <form id="search-create" class="form-inline">
+            <div class="form-group mx-sm-3 mb-2">
+                <input id="athlete-input" type="text" class="form-control" placeholder="BLUE 42! DOWN..">
+            </div>
+            <div>
+                <button id="athlete-button" type="submit" class="btn btn-primary mb-2">SET, HIKE!</button>
+            </div>
+
+        </form>
+
+        <!--GIF SECTION-->
+        <div id="athlete-gifs"></div>
+
+
+
+    </div>
+
+
+    
+    <script type="text/javascript" src="assets/javascript/giftastic.js"></script>
+</body>
+
+</html>
