@@ -1,8 +1,16 @@
 
 
 .jumbotron {
-    background-color: aliceblue;
+    background-color: blue;
     text-align: center;
     margin-bottom: 0;
     
+}
+
+h1 {
+    color: white;
+}
+
+.lead {
+    color: red;
 }

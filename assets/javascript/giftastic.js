@@ -1,6 +1,6 @@
 //VARIABLES FOR PAGE//
 var queryURL = "https://api.giphy.com/v1/gifs/search?q=";
-var apiKey = "0XWWMVFsFAY2uRk4emJ4O9DFSJ5ml81u";
+var apiKey = "faE0EFB3EbYH1pWILBOb902ZJAsxRIpB";
 var gifLimit = "&limit=10";
 var topics = ["Odell Beckham Jr.", "Drew Brees", "Ezekiel Elliott", "Aaron Rodgers", "Bobby Wagner", "Le'Veon Bell", "Aaron Donald", "Tom Brady", "Julio Jones", "Alvin Kamara"];
 var athleteButton;
@@ -43,9 +43,9 @@ $(document).ready(function() {
 
     $(document).on("click", ".athlete-button", function() {
         var athlete = $(this).attr("info-athlete");
-        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + athlete + "&api_key=" + apiKey + gifLimit;
-        var apiKey = "0XWWMVFsFAY2uRk4emJ4O9DFSJ5ml81u";
+        var apiKey = "faE0EFB3EbYH1pWILBOb902ZJAsxRIpB";
         var gifLimit = "&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + athlete + "&api_key=" + apiKey + gifLimit;
         
         $.ajax({
             url: queryURL,
