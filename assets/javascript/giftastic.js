@@ -2,7 +2,7 @@
 var queryURL = "https://api.giphy.com/v1/gifs/search?q=";
 var apiKey = "faE0EFB3EbYH1pWILBOb902ZJAsxRIpB";
 var gifLimit = "&limit=10";
-var topics = ["Odell Beckham Jr.", "Drew Brees", "Ezekiel Elliott", "Aaron Rodgers", "Bobby Wagner", "Le'Veon Bell", "Aaron Donald", "Tom Brady", "Julio Jones", "Alvin Kamara"];
+var topics = ["Odell Beckham Jr.", "Drew Brees", "Ezekiel Elliott", "Aaron Rodgers", "Richard Sherman", "Clay Matthews", "Antonio Brown", "Tom Brady", "Tyreek Hill", "Roger Goodell"];
 var athleteButton;
 var athleteAdded;
 var newAthlete;
