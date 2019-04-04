@@ -81,19 +81,7 @@ $(document).ready(function() {
     });
 
     //ON-CLICK FUNCTION TO PAUSE AND PLAY DISPLAYED GIF//
-    $(document).on("click", ".result", function() {
-        var condition = $(this).attr("info-state");
 
-        if (condition === "still") {
-            $(this).attr("src", $(this).attr("info-animate"));
-            $(this).attr("info-state", "animate");
-        }
-        else {
-            $(this).attr("src", $(this).attr("info-still"));
-            $(this).attr("info-state", "still");
-        }
-    });
-      
 
 });
 
