@@ -15,5 +15,7 @@
 ----------------------------------------------------------------------------------------
   </form>
   
-  <p>I am the sole contributer to this page.</p>
-  <p> Defintion of gif: "a lossless format for image files that supports both animated and static images." -Google
+  <h2>Link to my page could be found right here: <link>https://ramonavidallon.github.io/GifTastic/</link>.</h2>
+  
+  <h2>I am the sole contributer to this page.</h2>
+  <h2> Defintion of gif: "a lossless format for image files that supports both animated and static images." -Google</h2>
