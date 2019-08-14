@@ -16,5 +16,10 @@
 <h2> Deployed Link </h2>
 
 <h3> https://ramonavidallon.github.io/GifTastic/ </h3>
+
+<br>
+
+<img width="1223" alt="Screen Shot 2019-08-14 at 3 29 41 PM" src="https://user-images.githubusercontent.com/43662571/63060920-69c7dd80-bea8-11e9-9ecb-a4aae52a499c.png">
+
   
  
